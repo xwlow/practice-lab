@@ -92,14 +92,14 @@ export default [
     }
   },
   
-  // Configuration for test files
-  {
-    files: ["**/*.test.{js,jsx,ts,tsx}", "**/__tests__/**/*.{js,jsx,ts,tsx}"],
-    languageOptions: {
-      globals: {...globals.browser, ...globals.node, ...globals.jest}
-    },
-    rules: {
-      "@typescript-eslint/no-explicit-any": "off" // Allow any in tests
-    }
-  }
+  // // Configuration for test files
+  // {
+  //   files: ["**/*.test.{js,jsx,ts,tsx}", "**/__tests__/**/*.{js,jsx,ts,tsx}"],
+  //   languageOptions: {
+  //     globals: {...globals.browser, ...globals.node, ...globals.jest}
+  //   },
+  //   rules: {
+  //     "@typescript-eslint/no-explicit-any": "off" // Allow any in tests
+  //   }
+  // }
 ];
