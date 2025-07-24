@@ -52,7 +52,7 @@ export function validatePassword(password: string): PasswordValidationResult {
   const lowerPassword = password.toLowerCase();
   for (const word of commonWords) {
     if (lowerPassword.includes(word)) {
-      errors.push(`Password cannot contain common words like "${word}"`);
+      errors.push(`Password is too common and has been found in data breaches`);
       break;
     }
   }
