@@ -46,7 +46,7 @@ function App() {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <h1>Password Verification Momsky</h1>
+          <h1>Password Verification</h1>
           <p>Enter a password that meets OWASP security requirements</p>
         </div>
 
